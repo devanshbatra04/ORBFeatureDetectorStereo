@@ -1,7 +1,7 @@
 # StereoVision_for_uncalibrated_images
-Image rectification and depth perception is straight forward in case of rectified images (when the camera parameters are known) but in the case of uncalibrated images , this is not the case.
-Since the camera parameters are unavailable, the depth is estimated upto a scale. 
-In order to obtain a fairly accurate disparity map, the stereo images must be calibrated. 
+Image rectification and depth perception is straight forward in case of rectified images (when the camera parameters are known) but not in the case of uncalibrated images.
+
+In order to obtain a fairly accurate disparity map, the stereo images must be rectified.
 
 Rectification of Uncalibrated Images ->
 1. Compute the features and there descriptors in the stereo images (ORB in the present code).
